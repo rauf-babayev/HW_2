@@ -76,7 +76,7 @@ console.log(drawEmptyTriangle(9));
     
 // 5
 
-const drawSandClock = num => {
+const drawHourglass = num => {
     let str = '';
 
     for (let row = 0; row < num; row++) {
@@ -91,11 +91,11 @@ const drawSandClock = num => {
     return str;
 };
 
-console.log(drawSandClock(9));
+console.log(drawHourglass(9));
 
 // 6
 
-const drawEmptySandClock = num => {
+const drawEmptyHourglass = num => {
     let str = '';
 
     for (let row = 0; row < num; row++) {
@@ -110,7 +110,7 @@ const drawEmptySandClock = num => {
     return str;
 };
 
-console.log(drawEmptySandClock(9));
+console.log(drawEmptyHourglass(9));
 
 
 
